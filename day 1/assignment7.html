@@ -1,0 +1,23 @@
+<!--use script inside the body tag to display the Date Time on HTML PAGE-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+   current Date:
+   <input type="text" id="currentDate">
+   current Time:
+   <input type="text" id="currentTime">
+   <script>
+   var today = new Date();
+   var date = today.getFullyear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+   document.getElementByid("currentTime").value = time;
+
+   var today=new Date();
+   var time=today.getHours()+";"+today.getMinutes()+":"+today.getSeconds();
+      document.getElementByid("currentTime").value=time;
+ </script>                                                                         
+</body>
+</html>
